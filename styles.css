@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00b8e6; /* Background color */
+  }
+  
+  header {
+    background-color: #00a3cc;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+    background-color: #ccf5ff; /* Background color */
+    padding: 20px; /* Padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+  }
+
+  .instructor{
+    border-radius: 50%;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #syllabus li img {
+    margin-right: 10px;
+    width: 80px; /* Image size */
+    height: auto;
+    border-radius: 50%; /* Rounded image */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Shadow */
+  } */
+
+  #syllabus ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #syllabus li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Transition effect for background color */
+  }
+  
+  #syllabus li:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+  }
+  
+  #syllabus li img {
+    margin-right: 10px;
+    width: 150px; /* Adjust image width */
+    height: 80px; /* Force image height to match width */
+    object-fit: cover; /* Maintain aspect ratio and crop if needed */
+    border-radius: 8px; /* Add border radius for rounded corners */
+  }
+  
+  
+  #syllabus li img:hover {
+    transform: scale(1.1); /* Scale up image on hover */
+  }
+  
+  
+  #student-reviews .review {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  #student-reviews .review:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+  
+  #student-reviews .review h3 {
+    margin-bottom: 5px;
+  }
+  
+  #student-reviews .review p {
+    color: #555; /* Change text color for reviews */
+  }
+  
+  #student-reviews .review h3 {
+    color: #333; /* Change heading color for reviews */
+  }
+  
+  .stars {
+    color: #f7cb13; /* Star color */
+    font-size: 24px; /* Adjust star size */
+  }
+  
